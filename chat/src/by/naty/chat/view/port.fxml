@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="150.0"
+      prefWidth="300.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="by.naty.chat.view.ModalController">
+    <TextField fx:id="ipAddress" layoutX="71.0" layoutY="28.0" prefHeight="28.0" prefWidth="215.0"/>
+    <Button layoutX="94.0" layoutY="124.0" mnemonicParsing="false" onAction="#save" prefHeight="28.0"
+            prefWidth="113.0" text="Ok"/>
+    <TextField fx:id="port" layoutX="71.0" layoutY="75.0" prefHeight="28.0" prefWidth="215.0"/>
+    <Label layoutX="25.0" layoutY="28.0" text="ip">
+        <font>
+            <Font size="21.0"/>
+        </font>
+    </Label>
+    <Label layoutX="14.0" layoutY="75.0" text="port">
+        <font>
+            <Font size="21.0"/>
+        </font>
+    </Label>
+</Pane>
